@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "version": ">= 16.28.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyCTU8zK7nQXmY2kL9pR4sT7vW8xY1zA2bC",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "fbla-connect-prod.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "fbla-connect-prod",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "fbla-connect-prod.appspot.com",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "9876543210",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:9876543210:web:abc123def456ghi789",
+        "EXPO_PUBLIC_APP_ENV": "production"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
